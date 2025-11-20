@@ -90,7 +90,7 @@ h2 {
 
 /* Ajusta a logo */
 .logo {
-  width: 120px;
+  width: 250px;
   height: auto;
 }
 
@@ -98,4 +98,16 @@ h2 {
     margin-left: 20%;
     margin-right: 20%;
     color: #8D6E63;
+}
+
+#bg-video {
+    position: fixed;
+    object-fit: contain;
+    margin-left: 60%;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
 }
