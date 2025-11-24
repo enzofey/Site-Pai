@@ -1,0 +1,108 @@
+body {
+    background-color: #E8F5E9;
+}
+
+h1 {
+    color: #8D6E63;
+    margin-left: 30%;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+/* BOTÃO DO MENU */
+
+.menu button {
+    padding: 10px 30px;
+    background: #8D6E63;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.menu:hover .opções-menu {
+    display: block;
+}
+
+/* BOTÃO DO MENU */
+
+/* OPÇÕES DO BOTÃO DO MENU */
+
+.opções-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #FAF7F2;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    min-width: 150px;
+    padding: 5px 0;
+    text-decoration: none;
+    color: #4E342E
+}
+
+.opções-menu a {
+    display: block;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #4E342E
+}
+
+/* OPÇÕES DO BOTÃO DO MENU */
+
+.opções-menu a:hover {
+    background: #D7CCC8;
+}
+
+.submenu-contato {
+    display: none;
+}
+
+.contato-wrapper:hover .submenu-contato {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contato-toggle {
+    margin-left: 14px;
+    margin-top: 6px;
+}
+
+.contato-toggle:hover {
+    background: #D7CCC8;
+}
+
+.logo-link {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: block;
+}
+
+/* Ajusta a logo */
+.logo {
+  width: 250px;
+  height: auto;
+}
+
+.Texto {
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #8D6E63;
+}
+
+#bg-video {
+    position: fixed;
+    object-fit: contain;
+    margin-left: 60%;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
